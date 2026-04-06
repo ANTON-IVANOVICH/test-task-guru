@@ -1,9 +1,9 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom'
 
-import GuestRoute from './components/GuestRoute'
-import ProtectedRoute from './components/ProtectedRoute'
-import LoginPage from './pages/LoginPage'
-import ProductsPage from './pages/ProductsPage'
+import GuestRoute from '@/components/GuestRoute'
+import ProtectedRoute from '@/components/ProtectedRoute'
+import LoginPage from '@/pages/LoginPage'
+import ProductsPage from '@/pages/ProductsPage'
 
 export const router = createBrowserRouter([
   {

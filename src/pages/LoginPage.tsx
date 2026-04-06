@@ -24,8 +24,8 @@ import {
 } from '@tabler/icons-react'
 import { useNavigate } from 'react-router-dom'
 
-import { ApiError, login } from '../lib/api'
-import { useAuthStore } from '../store/auth-store'
+import { ApiError, login } from '@/lib/api'
+import { useAuthStore } from '@/store/auth-store'
 
 interface LoginFormValues {
   username: string

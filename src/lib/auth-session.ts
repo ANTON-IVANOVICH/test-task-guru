@@ -1,4 +1,4 @@
-import type { StoredAuthSession } from '../types/auth'
+import type { StoredAuthSession } from '@/types/auth'
 
 const AUTH_STORAGE_KEY = 'tg_auth_session'
 

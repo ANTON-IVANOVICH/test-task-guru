@@ -3,8 +3,8 @@ import type {
   LoginCredentials,
   LoginResponse,
   StoredAuthSession,
-} from '../types/auth'
-import type { Product, ProductCollectionResponse } from '../types/product'
+} from '@/types/auth'
+import type { Product, ProductCollectionResponse } from '@/types/product'
 
 const API_BASE_URL = '/api'
 const PRODUCTS_BATCH_LIMIT = 100

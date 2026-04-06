@@ -1,12 +1,12 @@
 import { create } from 'zustand'
 
-import { ApiError, getCurrentUser, refreshAuthSession } from '../lib/api'
+import { ApiError, getCurrentUser, refreshAuthSession } from '@/lib/api'
 import {
   clearStoredSession,
   loadStoredSession,
   persistSession,
-} from '../lib/auth-session'
-import type { AuthUser, StoredAuthSession } from '../types/auth'
+} from '@/lib/auth-session'
+import type { AuthUser, StoredAuthSession } from '@/types/auth'
 
 interface AuthState {
   token: string | null

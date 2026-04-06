@@ -32,11 +32,11 @@ import {
 } from '@tabler/icons-react'
 import { useNavigate } from 'react-router-dom'
 
-import ProductFormModal from '../components/ProductFormModal'
-import { ApiError, fetchProducts } from '../lib/api'
-import { useAuthStore } from '../store/auth-store'
-import { type SortField, useProductsStore } from '../store/products-store'
-import type { Product, ProductDraft } from '../types/product'
+import ProductFormModal from '@/components/ProductFormModal'
+import { ApiError, fetchProducts } from '@/lib/api'
+import { useAuthStore } from '@/store/auth-store'
+import { type SortField, useProductsStore } from '@/store/products-store'
+import type { Product, ProductDraft } from '@/types/product'
 
 const priceFormatter = new Intl.NumberFormat('ru-RU', {
   minimumFractionDigits: 2,

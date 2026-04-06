@@ -1,7 +1,7 @@
 import { RouterProvider } from 'react-router-dom'
 
-import AuthGate from './components/AuthGate'
-import { router } from './router'
+import AuthGate from '@/components/AuthGate'
+import { router } from '@/router'
 
 const App = () => (
   <AuthGate>

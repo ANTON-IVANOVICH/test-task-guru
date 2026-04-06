@@ -1,7 +1,7 @@
 import { type PropsWithChildren, useEffect } from 'react'
 import { Center, Loader } from '@mantine/core'
 
-import { useAuthStore } from '../store/auth-store'
+import { useAuthStore } from '@/store/auth-store'
 
 const AuthGate = ({ children }: PropsWithChildren) => {
   const initialize = useAuthStore((state) => state.initialize)

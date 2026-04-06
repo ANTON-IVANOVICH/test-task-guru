@@ -9,7 +9,7 @@ import {
 } from '@mantine/core'
 import { useForm } from '@mantine/form'
 
-import type { Product, ProductDraft } from '../types/product'
+import type { Product, ProductDraft } from '@/types/product'
 
 interface ProductFormModalProps {
   mode: 'create' | 'edit'

@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-import type { Product, ProductDraft } from '../types/product'
+import type { Product, ProductDraft } from '@/types/product'
 
 export type SortField = 'title' | 'brand' | 'sku' | 'rating' | 'price'
 export type SortOrder = 'asc' | 'desc'
