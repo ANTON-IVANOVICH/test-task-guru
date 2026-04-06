@@ -20,4 +20,16 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
+  {
+    files: [
+      '**/*.test.{ts,tsx}',
+      'src/shared/test/**/*.{ts,tsx}',
+      'e2e/**/*.ts',
+      'playwright.config.ts',
+      'vitest.config.ts',
+    ],
+    rules: {
+      'react-refresh/only-export-components': 'off',
+    },
+  },
 ])

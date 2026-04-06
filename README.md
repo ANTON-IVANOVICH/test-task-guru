@@ -23,6 +23,7 @@
 ```bash
 cp .env.example .env
 npm install
+npx playwright install chromium
 npm run dev
 ```
 
@@ -50,4 +51,15 @@ API товаров:
 
 ```bash
 VITE_API_BASE_URL=https://dummyjson.com
+```
+
+## Тесты
+
+```bash
+npm run test
+npm run test:watch
+npm run test:coverage
+npm run e2e
+npm run e2e:ui
+npm run check
 ```

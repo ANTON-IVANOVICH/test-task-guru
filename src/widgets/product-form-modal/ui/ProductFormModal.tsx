@@ -83,7 +83,9 @@ const ProductFormModal = ({
     form.setValues(getInitialValues(product))
     form.resetDirty()
     form.clearErrors()
-  }, [form, opened, product])
+    // `form` object identity is not stable and causes a reset loop if added to deps.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [opened, product?.id])
 
   const handleSubmit = (values: ProductFormValues) => {
     onSubmit({
